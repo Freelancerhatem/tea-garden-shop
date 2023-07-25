@@ -8,6 +8,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- ----------------------- -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +19,8 @@
       theme: {
         extend: {
           colors: {
-            'text-gradient': 'gradient-to-r from-cyan-500 to-blue-500',
+            'gradient-start': '#F00',
+            'gradient-end': '#FF8938',
           }
         }
       }
@@ -62,11 +66,11 @@
               </div>
         </div>
     </header>
-    <!-------------------- heder end--------------- -->
+    <!--------------------01 heder end total 06--------------- -->
     
     
     <main>
- <!-------------------------- card area------------------------------- -->
+ <!--------------------------02 card area------------------------------- -->
 
         <section class="text-center mx-auto  lg:px-32 py-3 ">
             <h1 class=" text-4xl lg:text-7xl font-extrabold ">
@@ -164,9 +168,9 @@
     </div>
 
  </section>
- <!---------- grate tea end------- -->
+ <!----------03 grate tea end------- -->
 
- <!---------- meet cliens start ------------->
+ <!----------04 meet cliens start ------------->
       <section class=" mx-auto  lg:px-32 pb-10 ">
         <div class="bg-gradient-to-r from-[#FF8938] to-[#F00] px-8 lg:px-20 py-8 lg:py-40 flex flex-col lg:flex-row  gap-16 ">
           
@@ -194,5 +198,61 @@
       </section>
 
     </main>
+    <!---------- main part end---------------------- -->
+    <footer class=" p-10 bg-base-200 text-base-content px-48 py-32">
+      <!--  -->
+      <div class="flex justify-between items-center my-10 ">
+        <img src="./images/cup.png" alt="">
+        <div class="flex items-center gap-5 mr-32">
+          <h3>Ready to get strated?</h3>
+          <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Started</button>
+        </div>
+      </div>
+      <!--  -->
+
+      <!-- start -->
+      <div class="footer">
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title">Newsletter</span> 
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="relative">
+              <input type="text" placeholder="username@mail.com" class=" outline-none bg-transparent input-bordered  py-3 border-b-2 border-b-slate-400 w-72" /> 
+              <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end absolute top-0 right-0 rounded-l-none "><i class="fa-solid fa-right-from-bracket text-white"></i></button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <!-- end -->
+     <div class="text-center -mb-8 my-10">
+      
+          <p>Copyright © 2023 - All right reserved by HatemDesignLab Ltd</p>
+       
+     </div>
+    </footer>
+   
 </body>
 </html>
